@@ -1,0 +1,66 @@
+.NavbarContainer{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    width: 100vw;
+}
+
+.ContainerSearch{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Text{
+    width: 150px;
+    height: 22px;
+    border-radius: 5px;
+}
+
+.Text:hover{
+    border: 2px solsid rgb(36, 216, 36);
+}
+
+.SearchButton{
+    color: #030303;
+    background-color: rgb(142, 52, 184);
+    border-radius: 15px;
+    padding: 3px;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid rgb(99, 37, 128);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.SearchButton:hover{
+    cursor: pointer;
+}
+
+
+.no-show {
+    display: none;
+}
+
+.show {
+    top: 110px;
+    height: 20vh;
+    width: 100vw;
+    background-color: #882929;
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+}
+
+.Direction{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: #f3f3f3;
+}
