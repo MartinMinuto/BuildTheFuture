@@ -1,0 +1,18 @@
+.ContainerIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 15vh;
+    margin: auto;
+    gap: 25px;
+}
+
+.IconsComponent{
+    width: 48px;
+    height: 48px;
+    background-color: rgb(228, 137, 0);
+    border-radius: 100%;
+    padding: 5px;
+    color: #f3f3f3;
+}

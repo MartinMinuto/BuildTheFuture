@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
+import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from 'react-icons/bs'
 import './Carusel.css'
 
     const Carusel = () => {
@@ -31,9 +31,9 @@ import './Carusel.css'
           return (
             <div>
               <div className='CaruselContainer'>
-                <AiOutlineArrowLeft className='IconArrowL' onClick={Next}/>
+                <BsFillArrowLeftCircleFill className='IconArrowL' onClick={Next}/>
                 <div className="ImgContainer" style={{ backgroundImage: `url(${Slides[renderImg].url})` }}></div>
-                <AiOutlineArrowRight className='IconArrowR' onClick={Prev}/>
+                <BsFillArrowRightCircleFill className='IconArrowR' onClick={Prev}/>
               </div>
             </div>
           );

@@ -5,6 +5,7 @@
     align-items: center;
     height: 20vh;
     width: 100vw;
+    z-index: 4;
 }
 
 .ContainerSearch{
@@ -13,6 +14,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    z-index: 4;
 }
 
 .Text{
@@ -20,7 +22,8 @@
     height: 22px;
     border-radius: 5px;
     border: 0px;
-     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    z-index: 4;
 }
 
 
@@ -46,6 +49,7 @@
     height: 28px;
     position: absolute;
     left: 200px;
+    z-index: 4;
 }
 
 .SearchButton:hover{
@@ -55,6 +59,7 @@
 .icon{
     width: 24px;
     height: 24px;
+    z-index: 4;
 }
 
 .no-show {
@@ -85,6 +90,7 @@
     padding-left: 10px;
     padding-bottom: 3px;
     padding-top: 5px;
+    z-index: 4;
 }
 .Direction:hover{
     color: rgb(255, 72, 0);
