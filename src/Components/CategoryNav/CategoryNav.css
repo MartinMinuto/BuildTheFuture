@@ -6,7 +6,6 @@
     background-color: rgb(228, 137, 0);
     position: absolute;
     width: 100vw;
-    padding: 3px;
     top: 80px;
 }
 
@@ -20,8 +19,6 @@
 }
 
 .CategoryLink:hover{
-    transform: translateY(-3px);
-    transition: 0.5s;
     color: #f7f7f7;
     border-bottom: 3px solid rgb(255, 72, 0);
 }

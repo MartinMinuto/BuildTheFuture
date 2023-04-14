@@ -20,11 +20,16 @@
     height: 22px;
     border-radius: 5px;
     border: 0px;
+     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 
 .Text:hover{
     border: 2px solid rgb(255, 81, 0);
+}
+
+.Text:focus{
+    outline: none;
 }
 
 .SearchButton{
@@ -35,10 +40,10 @@
     font-size: 1em;
     font-weight: 700;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 3px solid rgb(255, 81, 0);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-    width: 42px;
-    height: 22px;
+    border: 2px solid rgb(255, 72, 0);
+    width: 28px;
+    height: 28px;
     position: absolute;
     left: 200px;
 }
@@ -67,6 +72,7 @@
     text-decoration: none;
     justify-content: center;
     margin: auto;
+    z-index: 10;
 }
 
 .Direction{
