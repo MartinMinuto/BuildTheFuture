@@ -4,6 +4,7 @@ import { MdClose } from 'react-icons/md';
 import { FiMenu } from 'react-icons/fi';
 import { useState } from 'react';
 import { AiOutlineSearch } from 'react-icons/ai'
+import  CategoryNav  from '../CategoryNav/CategoryNav'
 
 const Navbar = () => {
    const [open, setOpen] = useState(false)
@@ -35,6 +36,7 @@ const Navbar = () => {
                 <Link className='Direction' to="/contacto">Contacto</Link>
               </div>
             </div>
+            <CategoryNav/>
         </nav>
     )
 }

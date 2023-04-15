@@ -56,6 +56,18 @@
     cursor: pointer;
 }
 
+@media (min-width:375px){
+    .SearchButton{
+        left: 230px;
+    }
+}
+
+@media (min-width:425px){
+    .SearchButton{
+        left: 254px;
+    }
+}
+
 .icon{
     width: 24px;
     height: 24px;
@@ -67,7 +79,7 @@
 }
 
 .show {
-    top: 110px;
+    top: 19vh;
     height: 25vh;
     width: 100vw;
     background-color: rgb(228, 137, 0);
