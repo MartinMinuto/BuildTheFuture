@@ -56,15 +56,45 @@
     cursor: pointer;
 }
 
-@media (min-width:375px){
+@media (min-width:340px){
+    .SearchButton{
+        left: 220px;
+    }
+}
+
+@media (min-width:370px){
     .SearchButton{
         left: 230px;
     }
 }
 
-@media (min-width:425px){
+@media (min-width:390px){
     .SearchButton{
-        left: 254px;
+        left: 240px;
+    }
+}
+
+@media (min-width:410px){
+    .SearchButton{
+        left: 250px;
+    }
+}
+
+@media (min-width:440px){
+    .SearchButton{
+        left: 270px;
+    }
+}
+
+@media (min-width:470px){
+    .SearchButton{
+        left: 280px;
+    }
+}
+
+@media (min-width:490px){
+    .SearchButton{
+        left: 290px;
     }
 }
 
