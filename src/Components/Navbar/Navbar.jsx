@@ -17,7 +17,7 @@ const Navbar = () => {
         <nav>
             <div className='NavbarContainer'>
               <div className='ContainerLogo'>
-                 <img src="" alt="" />
+               <MdClose className='icon' onClick={handleClick}/>
               </div>  
               <div className='ContainerSearch'>
                  <input className='Text' type="text" />
