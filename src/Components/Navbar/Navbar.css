@@ -1,7 +1,7 @@
 .NavbarContainer{
     background-color: rgb(228, 137, 0);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: 20vh;
     width: 100vw;
@@ -47,67 +47,13 @@
     border: 2px solid rgb(255, 72, 0);
     width: 28px;
     height: 28px;
-    position: absolute;
-    left: 200px;
+    position: relative;
+    right: 7vw;
     z-index: 4;
 }
 
 .SearchButton:hover{
     cursor: pointer;
-}
-
-@media (min-width:340px){
-    .SearchButton{
-        left: 220px;
-    }
-}
-
-@media (min-width:370px){
-    .SearchButton{
-        left: 230px;
-    }
-}
-
-@media (min-width:390px){
-    .SearchButton{
-        left: 240px;
-    }
-}
-
-@media (min-width:410px){
-    .SearchButton{
-        left: 250px;
-    }
-}
-
-@media (min-width:440px){
-    .SearchButton{
-        left: 270px;
-    }
-}
-
-@media (min-width:470px){
-    .SearchButton{
-        left: 280px;
-    }
-}
-
-@media (min-width:490px){
-    .SearchButton{
-        left: 290px;
-    }
-}
-
-@media (min-width:510px){
-    .SearchButton{
-        left: 300px;
-    }
-}
-
-@media (min-width:530px){
-    .SearchButton{
-        left: 310px;
-    }
 }
 
 .icon{
@@ -151,4 +97,28 @@
     transform: translateX(0px);
     transition: .3s;
     border-left: 3px solid rgb(255, 72, 0);
+}
+
+@media (min-width:520px){
+    .SearchButton{
+       right: 6vw; 
+    }
+}
+
+@media (min-width:632px){
+    .SearchButton{
+       right: 4vw; 
+    }
+}
+
+@media (min-width:900px){
+    .SearchButton{
+       right: 3vw; 
+    }
+}
+
+@media (min-width:1200px){
+    .SearchButton{
+       right: 2vw; 
+    }
 }
