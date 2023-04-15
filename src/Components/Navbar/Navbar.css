@@ -98,6 +98,18 @@
     }
 }
 
+@media (min-width:510px){
+    .SearchButton{
+        left: 300px;
+    }
+}
+
+@media (min-width:530px){
+    .SearchButton{
+        left: 310px;
+    }
+}
+
 .icon{
     width: 24px;
     height: 24px;
