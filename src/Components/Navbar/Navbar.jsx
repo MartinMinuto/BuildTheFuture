@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { MdClose } from 'react-icons/md';
 import { FiMenu } from 'react-icons/fi';
 import { useState } from 'react';
-import { AiOutlineSearch } from 'react-icons/ai'
+import { AiOutlineSearch, AiOutlineShoppingCart } from 'react-icons/ai'
 import  CategoryNav  from '../CategoryNav/CategoryNav'
 
 const Navbar = () => {
@@ -16,13 +16,6 @@ const Navbar = () => {
     return(
         <nav>
             <div className='NavbarContainer'>
-              <div className='ContainerLogo'>
-               <MdClose className='icon' onClick={handleClick}/>
-              </div>  
-              <div className='ContainerSearch'>
-                 <input className='Text' type="text" />
-                 <AiOutlineSearch className='SearchButton'/>
-              </div>
               <div>
                   {open ? (
                     <MdClose className='icon' onClick={handleClick} />
@@ -34,7 +27,15 @@ const Navbar = () => {
                 <Link className='Direction' to="/">Inicio</Link>
                 <Link className='Direction' to="/acerca">Acerca de</Link>
                 <Link className='Direction' to="/contacto">Contacto</Link>
+                <Link className='Direction' to="/contacto">Contacto</Link>
               </div>
+              <div className='ContainerSearch'>
+                 <input className='Text' type="text" />
+                 <AiOutlineSearch className='SearchButton'/>
+              </div>
+              <div className='ContainerLogo'>
+                 <AiOutlineShoppingCart className='icon'/>
+              </div>  
             </div>
             <CategoryNav/>
         </nav>

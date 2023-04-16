@@ -1,5 +1,5 @@
 .ImgContainer{
-    display: flex;
+    display: block;
     width: 100vw;
     height: 40vh;
     margin: auto;
@@ -27,4 +27,4 @@
     width: 20px;
     height: 20px;
     color: #f3f3f3;
-}
+}   
