@@ -1,4 +1,4 @@
- const Products = [
+ const products = [
     {
         id: '1',
         name: 'Memoria Ram DDR4 8GB',
@@ -125,4 +125,22 @@
         stock: 12,
         description: 'Placa de video RTX 4080',
     }
- ]
+]
+
+export const getProducts = () => {
+    return new Promise((resolve) => {
+      resolve(products)
+    })
+}
+
+export const getProductsById = (productId) => {
+    return new Promise((resolve) => {
+      resolve(products.find(prod => prod.id === productId))
+    })
+}
+
+export const getProductsByCategory = (categoryId) => {
+    return new Promise((resolve) => {
+      resolve(products.filter(prod => prod.category === categoryId))
+    })
+}
