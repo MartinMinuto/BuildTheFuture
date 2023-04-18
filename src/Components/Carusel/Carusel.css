@@ -1,9 +1,12 @@
 .ImgContainer{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 100vw;
     height: 40vh;
     margin: auto;
-    background-size: cover  ;
+    background-size:cover;
     margin-top: 10px;
     border-bottom: 3px solid rgb(228, 137, 0);
     border-top: 3px solid rgb(228, 137, 0);
