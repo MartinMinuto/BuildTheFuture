@@ -5,7 +5,7 @@ const CartContainer = ({products}) => {
     return (
         <div>
         {products && products.length > 0 ? (
-          <div>
+          <div className='ContainerMain'>
             {products.map((prod) => (
               <div className='ContainerCard' key={prod.id}>
                 <img className='ImgCard' src={prod.img} alt={prod.name} />

@@ -31,3 +31,15 @@
     height: 20px;
     color: #f3f3f3;
 }   
+
+@media (min-width:1024px){
+    .ImgContainer{
+        height: 60vh;
+    }
+    .IconArrowR{
+     top: 50vh;
+    }
+    .IconArrowL{
+     top: 50vh;
+    }
+}

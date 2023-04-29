@@ -6,6 +6,7 @@
     height: 15vh;
     margin: auto;
     gap: 25px;
+    border-bottom: 3px solid rgb(228, 137, 0);
 }
 
 .IconsComponent{
