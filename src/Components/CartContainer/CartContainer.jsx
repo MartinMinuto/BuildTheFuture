@@ -11,7 +11,7 @@ const CartContainer = ({products}) => {
                 <img className='ImgCard' src={prod.img} alt={prod.name} />
                 <h1 className='TitleCard'>{prod.name}</h1>
                 <h2 className='CategoryCard'>{prod.category}</h2>
-                <Link to='' className='BtnCard'>Details</Link>
+                <Link to={`/item/${prod.id}`} className='BtnCard'>Details</Link>
               </div>
             ))}
           </div>

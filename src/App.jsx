@@ -4,7 +4,8 @@ import ComponentIcon from './Components/ComponentIcon/ComponentIcon'
 import Footer from './Components/Footer/Footer'
 import Navbar from './Components/Navbar/Navbar'
 import CartDetailsContainer from './Components/CartDetailsContainer/CartDetailsContainer'
-import { BrowserRouter, Router, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import DetailsContainerPage from './Components/DetailsContainerPage/DetailsContainerPage'
 
 function App() {
    return(
@@ -12,7 +13,10 @@ function App() {
         <Navbar/>
         <Carusel/>
         <ComponentIcon/>
-        <CartDetailsContainer/>
+        <Routes>
+          <Route path='/' element={<CartDetailsContainer/>}/>
+          <Route path='/item/:productId' element={<DetailsContainerPage/>}/>
+        </Routes>  
         <Footer/>
     </BrowserRouter>
    )

@@ -1,4 +1,4 @@
-import 'DetailsPage.css'
+import './DetailsPage.css'
 
 const DetailsPage = ({name, price, img, category}) => {
     return (
