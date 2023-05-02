@@ -78,11 +78,11 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
-        width: 100vw;
+        width: 95vw;
         margin: auto;
     }
     .ContainerCard{
-        height: 40vh;
+        height: 55vh;
         width: 30vw;
     }
     .ImgCard{
@@ -90,5 +90,21 @@
     }
     .BtnCard{
         width: 20vw;
+    }
+}
+
+@media (min-width:1440px){
+    .ContainerMain{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 95vw;
+    }
+    .ContainerCard{
+        width: 20vw;
+    }
+    .ImgCard{
+        width: 18vw;
+    }
+    .BtnCard{
+        width: 18vw;
     }
 }

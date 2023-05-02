@@ -16,9 +16,7 @@ const DetailsContainerPage = () => {
     }, [productId])
 
     return (
-        <div>
            <DetailsPage {...product}/>
-        </div>
     )
 }
 
